@@ -1,0 +1,10 @@
+/Users/pieus/Documents/Code/PieusProduction/FlowStopwatch/FlowStopwatch/FlowStopwatch/obj/x86/Debug/FlowStopwatch.csproj.CoreCompileInputs.cache
+/Users/pieus/Documents/Code/PieusProduction/FlowStopwatch/FlowStopwatch/FlowStopwatch/bin/Debug/FlowStopwatch.exe
+/Users/pieus/Documents/Code/PieusProduction/FlowStopwatch/FlowStopwatch/FlowStopwatch/bin/Debug/FlowStopwatch.pdb
+/Users/pieus/Documents/Code/PieusProduction/FlowStopwatch/FlowStopwatch/FlowStopwatch/obj/x86/Debug/FlowStopwatch.exe
+/Users/pieus/Documents/Code/PieusProduction/FlowStopwatch/FlowStopwatch/FlowStopwatch/obj/x86/Debug/FlowStopwatch.pdb
+/Users/pieus/Documents/Code/PieusProduction/FlowStopwatch/FlowStopwatch/bin/Debug/FlowStopwatch.exe
+/Users/pieus/Documents/Code/PieusProduction/FlowStopwatch/FlowStopwatch/bin/Debug/FlowStopwatch.pdb
+/Users/pieus/Documents/Code/PieusProduction/FlowStopwatch/FlowStopwatch/obj/x86/Debug/FlowStopwatch.csproj.CoreCompileInputs.cache
+/Users/pieus/Documents/Code/PieusProduction/FlowStopwatch/FlowStopwatch/obj/x86/Debug/FlowStopwatch.exe
+/Users/pieus/Documents/Code/PieusProduction/FlowStopwatch/FlowStopwatch/obj/x86/Debug/FlowStopwatch.pdb

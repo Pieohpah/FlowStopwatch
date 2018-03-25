@@ -1,0 +1,3 @@
+/Users/pieus/Documents/Code/PieusProduction/FlowStopwatch/FlowStopwatch/FlowStopwatch/bin/Release/FlowStopwatch.exe
+/Users/pieus/Documents/Code/PieusProduction/FlowStopwatch/FlowStopwatch/FlowStopwatch/obj/x86/Release/FlowStopwatch.csproj.CoreCompileInputs.cache
+/Users/pieus/Documents/Code/PieusProduction/FlowStopwatch/FlowStopwatch/FlowStopwatch/obj/x86/Release/FlowStopwatch.exe
