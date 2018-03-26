@@ -101,6 +101,10 @@ namespace FlowStopwatch
         /// Sets the current time for the event 
         /// </summary>
         public bool Stamp(int eventIdentifier){
+            if(_startWatch == DateTime.MinValue)
+            {
+                _startWatch = DateTime.Now;
+            }
             if(!_eventList.ContainsKey(eventIdentifier)){
                 return false;
             }
