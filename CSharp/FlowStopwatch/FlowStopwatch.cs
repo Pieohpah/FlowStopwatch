@@ -130,7 +130,11 @@ namespace FlowStopwatch
         /// <summary>
         /// Returns the absolute time between two events
         /// </summary>
-        public double secondsBetween (int event1, int event2){
+        public double SecondsBetween (int event1, int event2){
+            if(_eventList[event1] == DateTime.MinValue || _eventList[event2] == DateTime.MinValue)
+            {
+                return 0.0;
+            }
             var timespan = _eventList[event1] - _eventList[event2];
             return Math.Abs(timespan.TotalSeconds);
         }
