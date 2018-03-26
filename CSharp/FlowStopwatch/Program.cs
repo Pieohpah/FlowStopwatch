@@ -31,9 +31,7 @@ namespace FlowStopwatch
             // CREATE FLOWSTOPWATCH WITH THE EVENTS
             flow = new FlowStopwatch(events);
 
-            Console.WriteLine($"Flow is running: {flow.IsRunning()}");
             flow.Start();
-            Console.WriteLine($"Flow is running: {flow.IsRunning()}");
             // STAMP AND RUN
             flow.Stamp(beforeA);
             funcA();
@@ -45,9 +43,8 @@ namespace FlowStopwatch
             funcC();
             flow.Stamp(afterC);
             var status = flow.Status();
-            Console.WriteLine($"Flow is running: {flow.IsRunning()}");
             var result = flow.Stop();
-            Console.WriteLine($"Flow is running: {flow.IsRunning()}");
+
             // COLLECT RESULT
             printResult(status);
             Console.WriteLine(flow);
