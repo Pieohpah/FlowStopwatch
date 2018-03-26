@@ -62,7 +62,7 @@ namespace FlowStopwatch
         }
         public static void printResult(Dictionary<int,DateTime> o) {
             // HANDLE THE OUTCOME
-            Console.WriteLine($"Total: {flow.secondsBetween(flow.stopEventID,flow.startEventID)} sec , B: {flow.secondsBetween(beforeB,afterB)} sec");
+            Console.WriteLine($"Total: {flow.SecondsBetween(flow.stopEventID,flow.startEventID)} sec , B: {flow.SecondsBetween(beforeB,afterB)} sec");
        }
     }
 }

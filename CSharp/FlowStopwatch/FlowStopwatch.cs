@@ -147,7 +147,7 @@ namespace FlowStopwatch
 
 		public override string ToString()
 		{
-            return $"Total: {secondsBetween(stopEventID, startEventID)} sec";
+            return $"Total: {SecondsBetween(stopEventID, startEventID)} sec";
 		}
 	}
 }
