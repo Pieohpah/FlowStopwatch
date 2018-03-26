@@ -31,7 +31,10 @@ namespace FlowStopwatch
             // CREATE FLOWSTOPWATCH WITH THE EVENTS
             flow = new FlowStopwatch(events);
 
+<<<<<<< HEAD
             flow.Start();
+=======
+>>>>>>> 378361483f5fd6c1bb4ae9730ac045ae4ce94429
             // STAMP AND RUN
             flow.Stamp(beforeA);
             funcA();
@@ -43,8 +46,13 @@ namespace FlowStopwatch
             funcC();
             flow.Stamp(afterC);
             var status = flow.Status();
+<<<<<<< HEAD
             var result = flow.Stop();
 
+=======
+            
+            var result = flow.Stop();
+>>>>>>> 378361483f5fd6c1bb4ae9730ac045ae4ce94429
             // COLLECT RESULT
             printResult(status);
             Console.WriteLine(flow);
@@ -63,7 +71,7 @@ namespace FlowStopwatch
         }
         public static void printResult(Dictionary<int,DateTime> o) {
             // HANDLE THE OUTCOME
-            Console.WriteLine($"Total: {flow.secondsBetween(flow.stopEventID,flow.startEventID)} sec , B: {flow.secondsBetween(beforeB,afterB)} sec");
+            Console.WriteLine($"Total: {flow.SecondsBetween(flow.stopEventID,flow.startEventID)} sec , B: {flow.SecondsBetween(beforeB,afterB)} sec");
        }
     }
 }
