@@ -2,7 +2,7 @@
 
 A process flow stopwatch for monitoring events in your application.
 
-###Available in Swift and C#.###
+###Available in Swift and C# ###
 
 Setup for a totally generic use. 
 
