@@ -2,13 +2,13 @@
 
 A process flow stopwatch for monitoring events in your application.
 
-###Available in Swift and C# ###
+### Available in Swift and CSharp ###
 
 Setup for a totally generic use. 
 
 Meassure what you like in your program, and use the result however you like. For logging, surveillance, monitoring etc.
 
-###Samples###
+### Samples ###
 #### Swift ####
 ´´´swift
 
@@ -32,7 +32,7 @@ Meassure what you like in your program, and use the result however you like. For
 ´´´
 
 
-#### C# ####
+#### CSharp ####
 ```csharp
           
 			var flow = new FlowStopwatch(events);
